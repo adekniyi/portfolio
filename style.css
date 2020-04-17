@@ -1,0 +1,197 @@
+    * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cont1 {
+    text-align: center;
+    padding-top: 350px;
+    background-image: url('https://i.dell.com/sites/csimages/Video_Imagery/all/xps_7590_touch.png');
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    color: rgb(27, 28, 29);
+}
+
+.boxcont {
+    float: left;
+    width: 43%;
+    margin-left: 3%;
+    margin-top: 2%;
+    border: 1px solid rgb(65, 63, 63);
+    box-shadow: 5px 5px 2px 2px grey;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.boxcont:hover {
+    box-shadow: 10px 10px 15px 15px grey;
+    width: 44%;
+}
+
+.writeUp {
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.5em;
+}
+
+.boxcont h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.boxcont .img {
+    width: 100%;
+    height: 320px;
+}
+
+.boxcont img {
+    width: 90%;
+    height: 300px;
+    margin-left: 25px;
+}
+
+.form {
+    float: right;
+    width: 40%;
+    margin-top: 2%;
+    /* margin-left: 100px; */
+}
+
+.form h2,
+.form input[type="email"] {
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.form textarea {
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.form input[type="email"] {
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(112, 109, 109);
+}
+
+input[type="email"]::placeholder {
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+.form input[type="submit"] {
+    margin-left: -35%;
+    width: 40%;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid rgb(112, 109, 109);
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(112, 109, 109);
+    color: aliceblue;
+    width: 41%;
+    height: 36px;
+    text-transform: uppercase;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:893px) {
+    .form input[type="submit"] {
+        margin-left: 50px;
+        width: 41%;
+        height: 36px;
+        text-transform: uppercase;
+    }
+    .form h2,
+    .form input[type="email"] {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .form textarea {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .form input[type="submit"] {
+        margin-left: 50px;
+        width: 41%;
+        height: 36px;
+        text-transform: uppercase;
+    }
+    .form h2,
+    .form input[type="email"] {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+    .form {
+        float: right;
+        width: 48%;
+        margin-top: 2%;
+        /* margin-left: 100px; */
+    }
+    .form textarea {
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .subcont {
+        display: flex;
+        flex-direction: column;
+    }
+    .boxcont {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .form h2,
+    .form input[type="email"] {
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+    .form input[type="email"] {
+        width: 60%;
+    }
+    .form textarea {
+        margin-bottom: 30px;
+        margin-left: 50px;
+        width: 60%;
+    }
+    .boxcont:hover {
+        box-shadow: 10px 10px 15px 15px grey;
+        width: 92%;
+    }
+    .cont1 {
+        text-align: center;
+        padding-top: 350px;
+        background-image: url('https://i.dell.com/sites/csimages/Video_Imagery/all/xps_7590_touch.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        color: rgb(27, 28, 29);
+    }
+    /* .form input[type="submit"]{
+       margin-left:50px;
+        width: 41%;
+        height: 36px;
+        text-transform: uppercase;
+    }
+    
+    .form{
+        width: 90%;
+        margin-top: 5%;
+    }*/
